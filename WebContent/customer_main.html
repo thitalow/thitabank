@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Customer Main Page</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/full.css">
+</head>
+<body>
+    
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="customer_main.html">ThitaBank</a>
+    </div>
+    
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="customer_main.html">Customer Main Page</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="customer_deposit.html">Deposit</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="customer_withdraw.html">Withdraw</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="customer_transfer.html">Transfer</a>
+      </li>
+    </ul>
+    
+    <ul class="nav justify-content-right">
+      <li class="nav-item">
+      	<a class="nav-link" href="http://localhost:2222/p1.5/signout">
+      	<span class="glyphicon glyphicon-log-out"></span> Sign Out</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+    
+    <div class="jumbotron jumbotron-fluid">
+         <div class="row" align="center">
+         
+	  		<img src="images/thita.jpg" alt="Thita">
+	        <h1>THITABANK</h1>      
+	  		<img src="images/thita.jpg" alt="Thita">
+	  		
+  		</div>        
+    </div>
+
+
+
+    <div align="center" id="allAccount" class="awayjumbo">
+    </div>
+    <div align="center" class="container">
+        <button onclick="getAllAccounts()">Refresh Accounts</button>
+    </div>
+    
+
+    <h2>Apply for Account</h2>
+    <div align="center" class="container">
+      <form method="POST"">
+        <table>
+          <tr>
+            <td><input type="number" id="applyAccountBalance" name="applyAccountBalance" placeholder="Enter Initial Balance"/></td>
+          </tr>
+          <tr>
+            <td><input type="button" onclick="applyForAccount()" value="Apply"/></td>
+          </tr>
+        </table>
+      </form>
+      <span id="applyAccountMessage"></span>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="scripts/customer.js"></script>
+</body>
+</html>

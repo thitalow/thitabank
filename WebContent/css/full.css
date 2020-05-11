@@ -1,0 +1,116 @@
+body, html {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.jumbotron{
+  color: rgb(22, 45, 175);
+  text-align: center;
+  padding-bottom: 1rem; 
+  padding-top: 1rem; 
+  background-color: rgb(184, 181, 173);
+  margin-bottom: 0;  
+}
+
+div.awayjumbo{
+	padding-top:1rem;
+}
+
+div.awayjumbohome{
+	padding-top:1rem;
+}
+
+.jumbotron img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height:3rem;
+}
+
+nav.navbar{
+	background-color: rgb(67, 64, 82);
+	margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li.nav-item:hover {
+  background-color: rgb(184, 181, 173);
+    color: #AF9816;
+}
+
+
+
+a.navbar-brand:hover {
+	  background-color: rgb(184, 181, 173);
+    color: rgb(22, 45, 175);
+	}
+	
+.card-body {
+	  color: rgb(22, 45, 175);
+	background-color: rgb(175, 152, 22);
+
+}
+	
+
+
+
+table.accountsTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+table.accountsTable td, table.accountsTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table.accountsTable tr:nth-child(even){background-color: #f2f2f2;}
+
+table.accountsTable tr:hover {background-color: #ddd;}
+
+table.accountsTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: rgb(22, 45, 175);
+  color: rgb(175, 152, 22);
+}
+
+ul.nav{
+  padding-top: 0rem; 
+  /* text-align: justify center; */
+}
+
+div.col-sm-6{
+  margin-top: 2rem;
+}
+
+h2{
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(22, 45, 175);
+  }
+  
+/* visited link */
+a:visited {
+color: rgb(175, 152, 22);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(22, 45, 175);
+}
+
+/* selected link */
+a:active {
+color: rgb(175, 152, 22);
+}

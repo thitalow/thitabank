@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ThitaBank</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/full.css">
+
+</head>
+<body>
+  
+<nav class="navbar navbar-expand-sm justify-content-center">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">welcome to</a>
+        </li>
+      </ul>
+  </nav> 
+ 
+
+    <div class="jumbotron jumbotron-fluid">
+         <div class="row" align="center">
+         
+	  		<img src="images/thita.jpg" alt="Thita">
+	        <h1>THITABANK</h1>      
+	  		<img src="images/thita.jpg" alt="Thita">
+	  		
+  		</div>        
+    </div>
+
+    <div class="container-fluid">
+      <!-- Control the column width, and how they should appear on different devices -->
+      <div class="row">
+      
+        <div align="center" class="col">
+        	<div class="card" style="height: 8 rem;">
+			  <img class="card-img-top" src="images/thita.jpg" alt="Thita">
+			  <div class="card-body">
+			    <h5 class="card-title">Bank CEO</h5>
+			    <p class="card-text">Willing to Sell. Please contact.</p>
+			    <a style="color:white;" class="btn btn-primary">(123)456-7890</a>
+			  </div>
+			</div>
+      	</div>
+      
+        <!-- login -->
+        <div align="center" class="col awayjumbohome">
+          <h3>Login</h3>
+            <form method="post">
+              <table>
+                <tr>
+                  <td><input type="text" id="loginUsername" name="loginUsername" placeholder="Enter Username"/></td>
+                </tr>
+                <tr>
+                  <td><input type="password" id="loginPassword" name="loginPassword" placeholder="Enter Password"/></td>
+                </tr>
+                <tr>
+                  <td><input type="button" onclick="validateLogin()" value="Login"/></td>
+                </tr>
+              </table>
+            </form>
+          <span id="loginMessage"></span>
+        </div>
+        
+        <!-- register -->
+        <div align="center" class="col awayjumbohome"> 
+          <h3>Register</h3>
+            <form method="post">
+              <table>
+                <tr>
+                  <td><input type="text" id="registerUsername" name="registerUsername" placeholder="Enter Username"/></td>
+                </tr>
+                <tr>
+                  <td><input type="password" id="registerPassword" name="registerPassword" placeholder="Enter Password"/></td>
+                </tr>
+                <tr>
+                  <td><input type="text" id="registerName" name="registerName" placeholder="Enter Your Name"/></td>
+                </tr>
+                <tr>
+                  <td><input type="text" id="registerCode" name="registerCode" placeholder="Enter Code if Employee"/></td>
+                </tr>
+                <tr>
+                  <td><input type="button" onclick="validateRegister()" value="Register"/></td>
+                </tr>
+              </table>
+            </form>
+          <span id="registerMessage"></span>
+        </div>
+        
+        <div align="center" class="col">
+        	<div class="card" style="height: 8 rem;">
+			  <img class="card-img-top" src="images/thita.jpg" alt="Thita">
+			  <div class="card-body">
+			    <h5 class="card-title">Bank CEO</h5>
+			    <p class="card-text">Willing to Sell. Please contact.</p>
+			    <a style="color:white;" class="btn btn-primary">(123)456-7890</a>
+			  </div>
+			</div>
+      	</div>
+        
+      </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>
+
